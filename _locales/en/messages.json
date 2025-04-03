@@ -1,0 +1,122 @@
+{
+  "extensionName": {
+    "message": "Chrome Extension Template",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "A modern Chrome Extension using Manifest V3 with React and TypeScript",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "Chrome Extension",
+    "description": "Title shown in the popup UI"
+  },
+  "enabledLabel": {
+    "message": "Enabled",
+    "description": "Label for enabled status"
+  },
+  "disabledLabel": {
+    "message": "Disabled",
+    "description": "Label for disabled status"
+  },
+  "settingsButton": {
+    "message": "Settings",
+    "description": "Label for settings button"
+  },
+  "activeWebsitesTitle": {
+    "message": "Active Websites",
+    "description": "Title for active websites section"
+  },
+  "noWebsitesConfigured": {
+    "message": "No websites configured",
+    "description": "Message shown when no websites are configured"
+  },
+  "footerVersionText": {
+    "message": "Chrome Extension Template v1.0.0",
+    "description": "Version information in footer"
+  },
+  "showExtensionInfoButton": {
+    "message": "Show Extension Info",
+    "description": "Label for button to show extension info"
+  },
+  "extensionStatusTitle": {
+    "message": "Extension Status",
+    "description": "Title for extension status notification"
+  },
+  "extensionEnabledStatus": {
+    "message": "Extension is enabled",
+    "description": "Message when extension is enabled"
+  },
+  "extensionDisabledStatus": {
+    "message": "Extension is disabled",
+    "description": "Message when extension is disabled"
+  },
+  "optionsTitle": {
+    "message": "Extension Options",
+    "description": "Title for options page"
+  },
+  "generalSettingsTitle": {
+    "message": "General Settings",
+    "description": "Title for general settings section"
+  },
+  "generalSettingsDescription": {
+    "message": "Configure the basic behavior of the extension",
+    "description": "Description for general settings"
+  },
+  "enableExtensionLabel": {
+    "message": "Enable extension functionality",
+    "description": "Label for enabling extension"
+  },
+  "targetWebsitesLabel": {
+    "message": "Target Websites (comma separated)",
+    "description": "Label for target websites input"
+  },
+  "targetWebsitesPlaceholder": {
+    "message": "example.com, another-site.com",
+    "description": "Placeholder for target websites input"
+  },
+  "appearanceTitle": {
+    "message": "Appearance",
+    "description": "Title for appearance settings"
+  },
+  "appearanceDescription": {
+    "message": "Customize how the extension looks",
+    "description": "Description for appearance settings"
+  },
+  "buttonColorLabel": {
+    "message": "Button Color",
+    "description": "Label for button color selector"
+  },
+  "notificationDurationLabel": {
+    "message": "Notification Duration (seconds)",
+    "description": "Label for notification duration"
+  },
+  "advancedOptionsTitle": {
+    "message": "Advanced Options",
+    "description": "Title for advanced options"
+  },
+  "advancedOptionsDescription": {
+    "message": "Configure advanced functionality",
+    "description": "Description for advanced options"
+  },
+  "enableDebugModeLabel": {
+    "message": "Enable debug mode",
+    "description": "Label for debug mode option"
+  },
+  "customCssLabel": {
+    "message": "Custom CSS (Optional)",
+    "description": "Label for custom CSS input"
+  },
+  "customCssPlaceholder": {
+    "message": ".my-custom-class { color: red; }",
+    "description": "Placeholder for custom CSS"
+  },
+  "saveOptionsButton": {
+    "message": "Save Options",
+    "description": "Label for save options button"
+  },
+  "optionsSavedMessage": {
+    "message": "Options saved successfully!",
+    "description": "Message when options are saved"
+  }
+}

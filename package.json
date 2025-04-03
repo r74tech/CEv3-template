@@ -1,0 +1,51 @@
+{
+  "name": "cev3-template",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A modern Chrome Extension template using Manifest V3 with React, TypeScript, and i18n support",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r74tech/CEv3-template.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "manifest-v3",
+    "react",
+    "typescript",
+    "vite",
+    "i18n"
+  ],
+  "author": "r74tech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r74tech/CEv3-template/issues"
+  },
+  "homepage": "https://github.com/r74tech/CEv3-template#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@extend-chrome/storage": "^1.5.0",
+    "@types/chrome": "^0.0.313",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "2.0.0-beta.32",
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}

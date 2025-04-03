@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="optionsTitle">Extension Options</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #333;
+    }
+    
+    h1 {
+      color: #4285f4;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .option-section {
+      margin-bottom: 30px;
+      padding: 15px;
+      border-radius: 4px;
+      background-color: #f8f9fa;
+    }
+    
+    .option-title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    
+    .option-description {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+    
+    input[type="text"], 
+    input[type="number"], 
+    select, 
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 14px;
+    }
+    
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+    }
+    
+    input[type="checkbox"] {
+      margin-right: 8px;
+    }
+    
+    button {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    button:hover {
+      background-color: #3367d6;
+    }
+    
+    .status {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 4px;
+      display: none;
+    }
+    
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+      display: block;
+    }
+    
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="optionsTitle">Extension Options</h1>
+  
+  <div class="option-section">
+    <div class="option-title" data-i18n="generalSettingsTitle">General Settings</div>
+    <div class="option-description" data-i18n="generalSettingsDescription">Configure the basic behavior of the extension</div>
+    
+    <div class="form-group checkbox-container">
+      <input type="checkbox" id="enableExtension" checked>
+      <label for="enableExtension" data-i18n="enableExtensionLabel">Enable extension functionality</label>
+    </div>
+    
+    <div class="form-group">
+      <label for="targetWebsites" data-i18n="targetWebsitesLabel">Target Websites (comma separated)</label>
+      <input type="text" id="targetWebsites" data-i18n-attr="placeholder" data-i18n-attr-value="targetWebsitesPlaceholder">
+    </div>
+  </div>
+  
+  <div class="option-section">
+    <div class="option-title" data-i18n="appearanceTitle">Appearance</div>
+    <div class="option-description" data-i18n="appearanceDescription">Customize how the extension looks</div>
+    
+    <div class="form-group">
+      <label for="buttonColor" data-i18n="buttonColorLabel">Button Color</label>
+      <select id="buttonColor">
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="red">Red</option>
+        <option value="purple">Purple</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="notificationDuration" data-i18n="notificationDurationLabel">Notification Duration (seconds)</label>
+      <input type="number" id="notificationDuration" min="1" max="60" value="5">
+    </div>
+  </div>
+  
+  <div class="option-section">
+    <div class="option-title" data-i18n="advancedOptionsTitle">Advanced Options</div>
+    <div class="option-description" data-i18n="advancedOptionsDescription">Configure advanced functionality</div>
+    
+    <div class="form-group checkbox-container">
+      <input type="checkbox" id="enableDebugMode">
+      <label for="enableDebugMode" data-i18n="enableDebugModeLabel">Enable debug mode</label>
+    </div>
+    
+    <div class="form-group">
+      <label for="customCss" data-i18n="customCssLabel">Custom CSS (Optional)</label>
+      <textarea id="customCss" rows="4" data-i18n-attr="placeholder" data-i18n-attr-value="customCssPlaceholder"></textarea>
+    </div>
+  </div>
+  
+  <button id="saveOptions" data-i18n="saveOptionsButton">Save Options</button>
+  <div id="status" class="status"></div>
+  
+  <div id="root"></div>
+  <script type="module" src="/src/options.ts"></script>
+</body>
+</html>

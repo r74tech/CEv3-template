@@ -1,0 +1,122 @@
+{
+  "extensionName": {
+    "message": "Chrome拡張機能テンプレート",
+    "description": "拡張機能の名前"
+  },
+  "extensionDescription": {
+    "message": "React、TypeScript、Manifest V3を使用したモダンなChrome拡張機能",
+    "description": "拡張機能の説明"
+  },
+  "popupTitle": {
+    "message": "Chrome拡張機能",
+    "description": "ポップアップUIに表示されるタイトル"
+  },
+  "enabledLabel": {
+    "message": "有効",
+    "description": "有効状態のラベル"
+  },
+  "disabledLabel": {
+    "message": "無効",
+    "description": "無効状態のラベル"
+  },
+  "settingsButton": {
+    "message": "設定",
+    "description": "設定ボタンのラベル"
+  },
+  "activeWebsitesTitle": {
+    "message": "アクティブなウェブサイト",
+    "description": "アクティブなウェブサイトセクションのタイトル"
+  },
+  "noWebsitesConfigured": {
+    "message": "設定されたウェブサイトはありません",
+    "description": "ウェブサイトが設定されていない場合に表示されるメッセージ"
+  },
+  "footerVersionText": {
+    "message": "Chrome拡張機能テンプレート v1.0.0",
+    "description": "フッターのバージョン情報"
+  },
+  "showExtensionInfoButton": {
+    "message": "拡張機能情報を表示",
+    "description": "拡張機能情報表示ボタンのラベル"
+  },
+  "extensionStatusTitle": {
+    "message": "拡張機能の状態",
+    "description": "拡張機能状態通知のタイトル"
+  },
+  "extensionEnabledStatus": {
+    "message": "拡張機能は有効です",
+    "description": "拡張機能が有効な場合のメッセージ"
+  },
+  "extensionDisabledStatus": {
+    "message": "拡張機能は無効です",
+    "description": "拡張機能が無効な場合のメッセージ"
+  },
+  "optionsTitle": {
+    "message": "拡張機能オプション",
+    "description": "オプションページのタイトル"
+  },
+  "generalSettingsTitle": {
+    "message": "一般設定",
+    "description": "一般設定セクションのタイトル"
+  },
+  "generalSettingsDescription": {
+    "message": "拡張機能の基本的な動作を設定する",
+    "description": "一般設定の説明"
+  },
+  "enableExtensionLabel": {
+    "message": "拡張機能の機能を有効にする",
+    "description": "拡張機能を有効にするためのラベル"
+  },
+  "targetWebsitesLabel": {
+    "message": "対象ウェブサイト（カンマ区切り）",
+    "description": "対象ウェブサイト入力のラベル"
+  },
+  "targetWebsitesPlaceholder": {
+    "message": "example.com, another-site.com",
+    "description": "対象ウェブサイト入力のプレースホルダー"
+  },
+  "appearanceTitle": {
+    "message": "外観",
+    "description": "外観設定のタイトル"
+  },
+  "appearanceDescription": {
+    "message": "拡張機能の見た目をカスタマイズする",
+    "description": "外観設定の説明"
+  },
+  "buttonColorLabel": {
+    "message": "ボタンの色",
+    "description": "ボタンの色セレクタのラベル"
+  },
+  "notificationDurationLabel": {
+    "message": "通知表示時間（秒）",
+    "description": "通知表示時間のラベル"
+  },
+  "advancedOptionsTitle": {
+    "message": "詳細オプション",
+    "description": "詳細オプションのタイトル"
+  },
+  "advancedOptionsDescription": {
+    "message": "高度な機能を設定する",
+    "description": "詳細オプションの説明"
+  },
+  "enableDebugModeLabel": {
+    "message": "デバッグモードを有効にする",
+    "description": "デバッグモードオプションのラベル"
+  },
+  "customCssLabel": {
+    "message": "カスタムCSS（オプション）",
+    "description": "カスタムCSS入力のラベル"
+  },
+  "customCssPlaceholder": {
+    "message": ".my-custom-class { color: red; }",
+    "description": "カスタムCSSのプレースホルダー"
+  },
+  "saveOptionsButton": {
+    "message": "設定を保存",
+    "description": "設定保存ボタンのラベル"
+  },
+  "optionsSavedMessage": {
+    "message": "設定が正常に保存されました！",
+    "description": "設定が保存された時のメッセージ"
+  }
+}
